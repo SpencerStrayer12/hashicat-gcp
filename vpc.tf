@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/chip-cert-org/network/google"
   version = "3.4.0"
-  network_name = "CHIPcert"
+  network_name = "chipcert"
   project_id = var.project
   subnets = [
   {
